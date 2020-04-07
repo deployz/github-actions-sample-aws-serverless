@@ -20,8 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: saragerion/terraform-aws-action@master
-
-    # Runs a single command using the runners shell
+    - uses: saragerion/terraform-aws-action@3c52db2
+      
     - name: Run a one-line script
       run: echo Hello, world!
